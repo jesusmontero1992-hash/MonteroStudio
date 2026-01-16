@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aplicamos el scroll suave a nivel de documento */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /* Un azul marino que se nota, no es negro */
+  background: radial-gradient(circle at 50% 30%, #001f54 0%, #000814 100%);
+  background-attachment: fixed;
+  color: #ffffff; /* Blanco puro para que se lea bien */
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Para que las secciones no se vean oscuras, les damos un brillo */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
