@@ -1,0 +1,6 @@
+# Robots.txt para Montero Studio
+User-agent: *
+Allow: /
+
+# Indica a Google dónde está el mapa de tu sitio
+Sitemap: https://montero-studio.vercel.app/sitemap.xml
