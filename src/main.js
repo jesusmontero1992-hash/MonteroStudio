@@ -1,3 +1,7 @@
+import { inject } from '@vercel/analytics';
+
+inject(); // Esto activa el rastreo de visitas
+
 import './styles/style.css'
 import { createNavbar, initNavbar } from './components/Navbar'
 import { createHero } from './components/Hero'
